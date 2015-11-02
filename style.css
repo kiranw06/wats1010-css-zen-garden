@@ -114,6 +114,16 @@ header {
 
 footer { 
 	text-align: center; 
+/* 	KIRA'S DESIGN
+	float: right;
+    background: aliceblue;
+    position: relative;
+    display: inline;
+    right: auto;
+    left: 175px;
+    width: 420px;
+    bottom: 40px;
+    height: 100px; */
 	}
 footer a:link, footer a:visited { 
 	margin-right: 20px; 
@@ -131,6 +141,12 @@ footer a:link, footer a:visited {
 	padding: 10px; 
 	margin-top: 150px; 
 	width: 130px; 
+/* 	RIGHT PAGE
+	background: aliceblue;
+    height: 1000px;
+    margin-top: 0px;
+    width: 400px; */
+}
 	}
 .sidebar h3.select { 
 	background: transparent url(h3.gif) no-repeat top left; 
