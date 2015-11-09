@@ -53,9 +53,9 @@ a {
 	color: white;
 } 
 a[class~="design-name"] {
-	letter-spacing: 3px;
+	font-family: helvetica
+	color: white;
 }
-
 
 /* body links */
 /* TODO fix visited link color in sidebar */
@@ -63,7 +63,8 @@ a[class~="design-name"] {
 	color: magenta;
 	}
 a:hover, a:focus, a:active { 
-	font-weight: bold; 
+	font-weight: bold;
+	text-decoration: underline;
 	}
 footer a {
 	color: rgba(255, 255, 255, 0.25);
@@ -127,13 +128,19 @@ aside h3 {
 	transition-duration: 1s;
 	transition-timing-function: ease-in-out;
 	}
-.sidebar li:hover {
-	font-size: .8rem;
-}
-/* TODO ANIMATE NAV */
+
+[class~="design-selection"] li {
+	color: rgba(255, 255, 255, 0.25);
+	}
 .design-selection li, .zen-resources li {
 	font-size: .7rem;
 }
+.design-selection li:hover {
+	letter-spacing: 2px;
+	font-weight: bolder;
+}
+
+
 /* RIGHT BODY */
 
 /* formatting */
@@ -174,13 +181,14 @@ header h1 {
 	  margin-left: 50px;
 		margin-right: 50px;
     padding-top: 50px;
-    color: cyan;
+	
     font-size: 20px;
 		letter-spacing: 6px;
     font-family: helvetica;
     top: -30px;
     text-transform: uppercase;
 }
+
 header h2 { 
 	background: no-repeat top left; 
 	margin-top: 58px; 
@@ -285,6 +293,7 @@ header {
   padding-top: 30px;
 	
 	font-size: .8rem;
+	text-align: right;
 }
 
 .benefits {
@@ -292,13 +301,16 @@ header {
 	top: -100px;
 	font-size: 1rem;
 	
+	width: 500px;
+	margin-right: 11%;
+	
 	transition-duration: 3s;
 	transition-timing-function: ease-in-out;
 }
 .benefits:hover, .benefits:focus, .benefits:active {
 	background: rgba(0, 128, 0, 0.3);
 	border-radius: 50%;
-	
+
 	height: auto;
 	width: 500px;
 	left: 50px;
@@ -315,7 +327,7 @@ header {
 	position: relative;
 	top: -100px;
 	font-size: .9rem;
-	
+	text-align: left;
 }
 .supporting {	
 	padding-left: 10px; 
