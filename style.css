@@ -213,7 +213,7 @@ header {
 		width: 30%;
 		height: auto;
 	
-	transition-duration: 5s;
+	transition-duration: 3s;
 	transition-timing-function: ease-in-out;
 }
 .summary:hover {
@@ -258,7 +258,7 @@ header {
   margin-left: 0px;
   margin-right: 22%;
 	
-	transition-duration: 5s;
+	transition-duration: 3s;
 	transition-timing-function: ease-in;
 }
 .explanation:hover, .explanation:focus, .explanation:active  {
@@ -292,7 +292,7 @@ header {
 	top: -100px;
 	font-size: 1rem;
 	
-	transition-duration: 5s;
+	transition-duration: 3s;
 	transition-timing-function: ease-in-out;
 }
 .benefits:hover, .benefits:focus, .benefits:active {
@@ -313,7 +313,7 @@ header {
 
 .requirements {
 	position: relative;
-	top: -50px;
+	top: -100px;
 	font-size: .9rem;
 	
 }
